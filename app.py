@@ -19,7 +19,7 @@ app.register_blueprint(auth_bp)
 
 @app.route('/')
 def base():
-    return render_template("Base.html", year=datetime.now().year)
+    return render_template("Login.html", year=datetime.now().year)
 
 if __name__ == '__main__':
     app.run(debug=True)
