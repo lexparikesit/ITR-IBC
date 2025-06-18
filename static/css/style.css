@@ -8,6 +8,16 @@ body {
     background-color: #A91D3A;
 }
 
+.header-wrapper header {
+    padding: 8px 16px;
+    height: 60px;
+    font-size: 14px;
+}
+
+.header-wrapper h1 {
+    font-size: 20px;
+}
+
 .navbar-menu {
     flex: 1;
     display: flex;
