@@ -4,8 +4,8 @@ from routes.arrival_check import arrival_check_app
 from routes.storage_maintenance_list import storage_maintenance_list_app
 from routes.pre_delivery_list import pre_delivery_app
 from routes.ibc import ibc_app
-from routes.auth import auth_bp
 from routes.storage_maintenance_list import storage_maintenance_list_app
+from routes.auth import auth_bp
 
 app = Flask(__name__)
 app.secret_key = 'secret-key'

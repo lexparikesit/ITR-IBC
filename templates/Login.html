@@ -6,7 +6,7 @@
         <div class="login-card">
             <div class="login-box">
                 <h2> Login User </h2>
-                <form>
+                <form method="POST" action="{{ url_for('auth.login')}}">
                     <div class="input-group">
                         <span class="icon">📧</span>
                         <input type="text" placeholder="Input Your User ID/ Email" required />
